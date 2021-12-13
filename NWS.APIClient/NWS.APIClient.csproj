@@ -5,7 +5,7 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<LangVersion>8.0</LangVersion>
 		<Authors>Mitchell Hanson</Authors>
-		<Description>API CLient Wrapper for the National Weather Service api (api.weather.gov)</Description>
+		<Description>API Client Wrapper for the National Weather Service api (api.weather.gov)</Description>
 		<Company>Scotty Doesn't Know</Company>
 		<RepositoryUrl></RepositoryUrl>
 		<RepositoryType></RepositoryType>
