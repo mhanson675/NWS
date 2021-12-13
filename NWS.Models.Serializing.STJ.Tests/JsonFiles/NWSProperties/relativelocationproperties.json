@@ -1,0 +1,12 @@
+{
+  "city": "Lackland AFB",
+  "state": "TX",
+  "distance": {
+    "unitCode": "wmoUnit:m",
+    "value": 1089.4165776656
+  },
+  "bearing": {
+    "unitCode": "wmoUnit:degree_(angle)",
+    "value": 257
+  }
+}

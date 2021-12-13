@@ -1,0 +1,14 @@
+{
+  "values": [
+    {
+      "validTime": "2021 -12-10T06:00:00+00:00/PT10H",
+      "value": [
+        {
+          "phenomenon": "string",
+          "significance": "string",
+          "event_number": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "number": 1,
+  "name": "This Afternoon",
+  "startTime": "2021-12-08T13:00:00-06:00",
+  "endTime": "2021-12-08T18:00:00-06:00",
+  "isDaytime": true,
+  "temperature": {
+    "unitCode": "wmoUnit:degC",
+    "value": 25.555555555555557
+  },
+  "temperatureTrend": null,
+  "windSpeed": {
+    "unitCode": "wmoUnit:km_h-1",
+    "value": 8.0467200000000005
+  },
+  "windGust": null,
+  "windDirection": "SSE",
+  "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+  "shortForecast": "Sunny",
+  "detailedForecast": "Sunny, with a high near 78. South southeast wind around 5 mph."
+}

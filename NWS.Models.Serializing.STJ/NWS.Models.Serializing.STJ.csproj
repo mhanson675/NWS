@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Mitchell Hanson</Authors>
+    <Product>National Weather Service API Serialization</Product>
+    <Description>Serialization/Deserialization helpers for serializing/deserializing data from the National Weather Service API endpoints, using System.Text.Json and NWS.Models</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NWS.Models" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

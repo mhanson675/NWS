@@ -1,0 +1,32 @@
+{
+  "@id": "https://api.weather.gov/points/29.3845,-98.6289",
+  "@type": "wx:Point",
+  "geometry": "POINT(-98.6289 29.3845)",
+  "cwa": "EWX",
+  "forecastOffice": "https://api.weather.gov/offices/EWX",
+  "gridId": "EWX",
+  "gridX": 120,
+  "gridY": 52,
+  "forecast": "https://api.weather.gov/gridpoints/EWX/120,52/forecast",
+  "forecastHourly": "https://api.weather.gov/gridpoints/EWX/120,52/forecast/hourly",
+  "forecastGridData": "https://api.weather.gov/gridpoints/EWX/120,52",
+  "observationStations": "https://api.weather.gov/gridpoints/EWX/120,52/stations",
+  "relativeLocation": {
+    "city": "Lackland AFB",
+    "state": "TX",
+    "geometry": "POINT(-98.617941 29.386692)",
+    "distance": {
+      "unitCode": "wmoUnit:m",
+      "value": 1089.4165776656
+    },
+    "bearing": {
+      "unitCode": "wmoUnit:degree_(angle)",
+      "value": 257
+    }
+  },
+  "forecastZone": "https://api.weather.gov/zones/forecast/TXZ205",
+  "county": "https://api.weather.gov/zones/county/TXC029",
+  "fireWeatherZone": "https://api.weather.gov/zones/fire/TXZ205",
+  "timeZone": "America/Chicago",
+  "radarStation": "KEWX"
+}

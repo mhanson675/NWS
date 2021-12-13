@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AppDesignerFolder>JsonLdProperties</AppDesignerFolder>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Mitchell Hanson</Authors>
+    <Company />
+    <Product>National Weather Service API Models</Product>
+    <Description>C# Models for data retreived from the National Weather Service API endpoints.</Description>
+    <Copyright></Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>

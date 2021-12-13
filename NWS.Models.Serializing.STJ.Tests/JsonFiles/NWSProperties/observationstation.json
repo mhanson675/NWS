@@ -1,0 +1,15 @@
+{
+  "@id": "https://api.weather.gov/stations/KSSF",
+  "@type": "wx:ObservationStation",
+  "geometry": "POINT(-98.47167 29.33889)",
+  "elevation": {
+    "unitCode": "wmoUnit:m",
+    "value": 174.95519999999999
+  },
+  "stationIdentifier": "KSSF",
+  "name": "San Antonio, Stinson Municipal Airport",
+  "timeZone": "America/Chicago",
+  "forecast": "https://api.weather.gov/zones/forecast/TXZ205",
+  "county": "https://api.weather.gov/zones/county/TXC029",
+  "fireWeatherZone": "https://api.weather.gov/zones/fire/TXZ205"
+}

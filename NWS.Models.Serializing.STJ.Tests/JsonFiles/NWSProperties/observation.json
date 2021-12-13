@@ -1,0 +1,118 @@
+{
+  "@id": "https://api.weather.gov/stations/KSSF/observations/2021-12-09T18:53:00+00:00",
+  "@type": "wx:ObservationStation",
+  "geometry": "POINT(-98.47 29.33)",
+  "elevation": {
+    "unitCode": "wmoUnit:m",
+    "value": 176
+  },
+  "station": "https://api.weather.gov/stations/KSSF",
+  "timestamp": "2021-12-09T18:53:00+00:00",
+  "rawMessage": "KSSF 091853Z 20007G16KT 9SM SCT022 OVC027 26/19 A2988 RMK AO2 SLP109 T02610194",
+  "textDescription": "Cloudy",
+  "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+  "presentWeather": [
+
+    {
+      "intensity": "light",
+      "modifier": "patches",
+      "weather": "fog_mist",
+      "rawString": "string",
+      "inVicinity": true
+    }
+  ],
+  "temperature": {
+    "unitCode": "wmoUnit:degC",
+    "value": 26.100000000000001,
+    "qualityControl": "V"
+  },
+  "dewpoint": {
+    "unitCode": "wmoUnit:degC",
+    "value": 19.399999999999999,
+    "qualityControl": "V"
+  },
+  "windDirection": {
+    "unitCode": "wmoUnit:degree_(angle)",
+    "value": 200,
+    "qualityControl": "V"
+  },
+  "windSpeed": {
+    "unitCode": "wmoUnit:km_h-1",
+    "value": 12.960000000000001,
+    "qualityControl": "V"
+  },
+  "windGust": {
+    "unitCode": "wmoUnit:km_h-1",
+    "value": null,
+    "qualityControl": "Z"
+  },
+  "barometricPressure": {
+    "unitCode": "wmoUnit:Pa",
+    "value": 101190,
+    "qualityControl": "V"
+  },
+  "seaLevelPressure": {
+    "unitCode": "wmoUnit:Pa",
+    "value": 101090,
+    "qualityControl": "V"
+  },
+  "visibility": {
+    "unitCode": "wmoUnit:m",
+    "value": 14480,
+    "qualityControl": "C"
+  },
+  "maxTemperatureLast24Hours": {
+    "unitCode": "wmoUnit:degC",
+    "value": null
+  },
+  "minTemperatureLast24Hours": {
+    "unitCode": "wmoUnit:degC",
+    "value": null
+  },
+  "precipitationLastHour": {
+    "unitCode": "wmoUnit:m",
+    "value": null,
+    "qualityControl": "Z"
+  },
+  "precipitationLast3Hours": {
+    "unitCode": "wmoUnit:m",
+    "value": null,
+    "qualityControl": "Z"
+  },
+  "precipitationLast6Hours": {
+    "unitCode": "wmoUnit:m",
+    "value": null,
+    "qualityControl": "Z"
+  },
+  "relativeHumidity": {
+    "unitCode": "wmoUnit:percent",
+    "value": 66.609373675103001,
+    "qualityControl": "V"
+  },
+  "windChill": {
+    "unitCode": "wmoUnit:degC",
+    "value": null,
+    "qualityControl": "V"
+  },
+  "heatIndex": {
+    "unitCode": "wmoUnit:degC",
+    "value": 26.504800312627779,
+    "qualityControl": "V"
+  },
+  "cloudLayers": [
+    {
+      "base": {
+        "unitCode": "wmoUnit:m",
+        "value": 670
+      },
+      "amount": "SCT"
+    },
+    {
+      "base": {
+        "unitCode": "wmoUnit:m",
+        "value": 820
+      },
+      "amount": "OVC"
+    }
+  ]
+}

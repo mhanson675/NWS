@@ -1,0 +1,22 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -98.617941000000002,
+      29.386692
+    ]
+  },
+  "properties": {
+    "city": "Lackland AFB",
+    "state": "TX",
+    "distance": {
+      "unitCode": "wmoUnit:m",
+      "value": 1089.4165776656
+    },
+    "bearing": {
+      "unitCode": "wmoUnit:degree_(angle)",
+      "value": 257
+    }
+  }
+}

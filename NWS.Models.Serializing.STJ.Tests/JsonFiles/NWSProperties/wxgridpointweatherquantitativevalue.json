@@ -1,0 +1,10 @@
+{
+  "coverage": "areas",
+  "weather": "fog",
+  "intensity": null,
+  "visibility": {
+    "unitCode": "wmoUnit:km",
+    "value": null
+  },
+  "attributes": [ "heavy_rain", "large_hail" ]
+}

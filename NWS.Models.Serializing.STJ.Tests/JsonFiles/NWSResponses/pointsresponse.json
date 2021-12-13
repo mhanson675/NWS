@@ -1,0 +1,94 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "s": "https://schema.org/",
+      "geo": "http://www.opengis.net/ont/geosparql#",
+      "unit": "http://codes.wmo.int/common/unit/",
+      "@vocab": "https://api.weather.gov/ontology#",
+      "geometry": {
+        "@id": "s:GeoCoordinates",
+        "@type": "geo:wktLiteral"
+      },
+      "city": "s:addressLocality",
+      "state": "s:addressRegion",
+      "distance": {
+        "@id": "s:Distance",
+        "@type": "s:QuantitativeValue"
+      },
+      "bearing": {
+        "@type": "s:QuantitativeValue"
+      },
+      "value": {
+        "@id": "s:value"
+      },
+      "unitCode": {
+        "@id": "s:unitCode",
+        "@type": "@id"
+      },
+      "forecastOffice": {
+        "@type": "@id"
+      },
+      "forecastGridData": {
+        "@type": "@id"
+      },
+      "publicZone": {
+        "@type": "@id"
+      },
+      "county": {
+        "@type": "@id"
+      }
+    }
+  ],
+  "id": "https://api.weather.gov/points/29.3845,-98.6289",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -98.628900000000002,
+      29.384499999999999
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/points/29.3845,-98.6289",
+    "@type": "wx:Point",
+    "cwa": "EWX",
+    "forecastOffice": "https://api.weather.gov/offices/EWX",
+    "gridId": "EWX",
+    "gridX": 120,
+    "gridY": 52,
+    "forecast": "https://api.weather.gov/gridpoints/EWX/120,52/forecast",
+    "forecastHourly": "https://api.weather.gov/gridpoints/EWX/120,52/forecast/hourly",
+    "forecastGridData": "https://api.weather.gov/gridpoints/EWX/120,52",
+    "observationStations": "https://api.weather.gov/gridpoints/EWX/120,52/stations",
+    "relativeLocation": {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.617941000000002,
+          29.386692
+        ]
+      },
+      "properties": {
+        "city": "Lackland AFB",
+        "state": "TX",
+        "distance": {
+          "unitCode": "wmoUnit:m",
+          "value": 1089.4165776656
+        },
+        "bearing": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 257
+        }
+      }
+    },
+    "forecastZone": "https://api.weather.gov/zones/forecast/TXZ205",
+    "county": "https://api.weather.gov/zones/county/TXC029",
+    "fireWeatherZone": "https://api.weather.gov/zones/fire/TXZ205",
+    "timeZone": "America/Chicago",
+    "radarStation": "KEWX"
+  }
+}
