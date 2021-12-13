@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWS.Models.Serializing.STJ"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWS.Models.Serializing.STJ.Tests", "NWS.Models.Serializing.STJ.Tests\NWS.Models.Serializing.STJ.Tests.csproj", "{2B06582F-C85E-4ECD-88E3-46C38A26B9EB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWS.APIClient", "NWS.APIClient\NWS.APIClient.csproj", "{9DE2FC1F-5450-4573-B1FE-A2F5515D4C83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWS.APIClient.Tests", "NWS.APIClient.Tests\NWS.APIClient.Tests.csproj", "{9E89180F-0377-4621-AA7C-8440F38ED893}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NWS.APIClient.UI", "NWS.APIClient.UI\NWS.APIClient.UI.csproj", "{C484BC1C-3BF7-442A-9CC2-C13ECCF978E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{2B06582F-C85E-4ECD-88E3-46C38A26B9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B06582F-C85E-4ECD-88E3-46C38A26B9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B06582F-C85E-4ECD-88E3-46C38A26B9EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE2FC1F-5450-4573-B1FE-A2F5515D4C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE2FC1F-5450-4573-B1FE-A2F5515D4C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE2FC1F-5450-4573-B1FE-A2F5515D4C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE2FC1F-5450-4573-B1FE-A2F5515D4C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E89180F-0377-4621-AA7C-8440F38ED893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E89180F-0377-4621-AA7C-8440F38ED893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E89180F-0377-4621-AA7C-8440F38ED893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E89180F-0377-4621-AA7C-8440F38ED893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C484BC1C-3BF7-442A-9CC2-C13ECCF978E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C484BC1C-3BF7-442A-9CC2-C13ECCF978E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C484BC1C-3BF7-442A-9CC2-C13ECCF978E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C484BC1C-3BF7-442A-9CC2-C13ECCF978E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
